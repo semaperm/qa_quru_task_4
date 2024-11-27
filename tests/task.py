@@ -28,7 +28,7 @@ def test_forma_auto():
 
         browser.element(by.text("Male")).click()
         browser.element("#userNumber").should(be.blank).type("0123456789").press_tab()
-        browser.element("#dateOfBirthInput").type('01-02-2002').press_enter()
+        #browser.element("#dateOfBirthInput").type('01-02-2002').press_enter()
 
         browser.element("#subjectsInput").type("English").press_enter()
         browser.element(by.text("Sports")).click()
